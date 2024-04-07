@@ -2243,6 +2243,10 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="width" val="32"/>
       <a name="label" val="R_Out"/>
     </comp>
+    <comp lib="0" loc="(1090,330)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="KBD"/>
+    </comp>
     <comp lib="0" loc="(420,340)" name="Tunnel">
       <a name="label" val="CLK"/>
     </comp>
@@ -2335,17 +2339,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="width" val="6"/>
       <a name="label" val="Op-code"/>
     </comp>
-    <comp lib="0" loc="(1090,330)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="RND"/>
-    </comp>
     <comp lib="0" loc="(880,250)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="ready_write"/>
-    </comp>
-    <comp lib="0" loc="(1120,330)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="KBD"/>
     </comp>
     <comp lib="0" loc="(840,660)" name="Tunnel">
       <a name="facing" val="east"/>
@@ -2492,6 +2488,10 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="0" loc="(730,120)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="CLR"/>
+    </comp>
+    <comp lib="0" loc="(1120,330)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="RND"/>
     </comp>
     <comp lib="0" loc="(400,340)" name="Pin">
       <a name="tristate" val="false"/>
